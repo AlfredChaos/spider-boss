@@ -1,0 +1,16 @@
+{
+  "persistent_login": true,
+  "auto_backup_interval": 300,
+  "browser_args": [
+    "--no-sandbox",
+    "--disable-blink-features=AutomationControlled",
+    "--disable-web-security",
+    "--disable-features=VizDisplayCompositor"
+  ],
+  "login_detection": {
+    "method": "element",
+    "element_selector": ".user-avatar, .user-name",
+    "login_url_pattern": "login",
+    "protected_url": "https://www.zhipin.com/web/geek/chat"
+  }
+}

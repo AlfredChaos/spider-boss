@@ -1,0 +1,10 @@
+# 浏览器用户数据目录
+browser_data/
+
+# 登录备份文件
+config/login_backup.json
+config/backups/
+
+# 临时文件
+*.tmp
+*.log
